@@ -2,6 +2,7 @@
 
 Welcome to my personal portfolio website!  
 This project showcases my background, technical skills, and hands-on projects in **programming**, **robotics**, and **mechatronics engineering**.
+**Please this project is still under construction**
 
 ---
 
@@ -61,4 +62,5 @@ Ruth Deemua
 ## 🪄 License
 
 This project is open-source and available under the MIT License.
+
 
