@@ -15,7 +15,7 @@ export const projectsData = [
         description: "The website you are currently viewing, built with React and Vite.",
         longDescription: "Designed a personal portfolio website with html, css, javascript and node.js.",
         link: "https://ruthiezgit.github.io/my-website/",
-        image: "/images/portfolio.png",
+        image: "/images/portfolio-website.png",
         tags: ["React", "Framer Motion", "Vite"],
         featured: true
     },
