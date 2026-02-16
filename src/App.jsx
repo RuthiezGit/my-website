@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import ProjectsGallery from './pages/ProjectsGallery'; // Import the new page
 import AboutHome from './components/AboutHome'; // Import the new component
 import About from './pages/About'; // Import the new page
+import ScrollToHash from './components/ScrollToHash';
 import './index.css';
 
 
@@ -46,7 +47,8 @@ const AppContent = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
+      <ScrollToHash />
       <AppContent />
     </Router>
   );

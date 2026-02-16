@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -35,7 +36,7 @@ const Hero = () => {
                             boxShadow: '0 0 20px rgba(212, 175, 55, 0.3)'
                         }}
                     >
-                        <img src="/images/my_dp.jpg" alt="Ruth Deemua" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src={`${import.meta.env.BASE_URL}images/my_dp.jpg`} alt="Ruth Deemua" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </motion.div>
 
                     <motion.h1
@@ -73,7 +74,7 @@ const Hero = () => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                 >
-                    <a href="#contact" className="btn btn-primary" style={{
+                    <Link to="/#contact" className="btn btn-primary" style={{
                         background: 'var(--accent-gold)',
                         color: '#000',
                         padding: '12px 30px',
@@ -82,7 +83,7 @@ const Hero = () => {
                         fontWeight: 'bold',
                         fontSize: '1.1rem',
                         boxShadow: '0 4px 15px rgba(212, 175, 55, 0.4)'
-                    }}>Hire Me</a>
+                    }}>Hire Me</Link>
                 </motion.div>
             </div>
         </section>

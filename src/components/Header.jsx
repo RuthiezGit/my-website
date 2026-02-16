@@ -67,13 +67,14 @@ const Header = () => {
                                         {item}
                                     </Link>
                                 ) : (
-                                    <a
-                                        href={item === 'Home' ? '/' : `/#${item.toLowerCase()}`}
+                                    <Link
+                                        to={item === 'Home' ? '/' : `/#${item.toLowerCase()}`}
                                         style={navStyles.link}
                                         className="nav-link"
+                                        onClick={() => setIsOpen(false)}
                                     >
                                         {item}
-                                    </a>
+                                    </Link>
                                 )}
                             </li>
                         ))}

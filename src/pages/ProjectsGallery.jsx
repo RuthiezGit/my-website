@@ -41,7 +41,7 @@ const ProjectsGallery = () => {
                             {project.image ? (
                                 <div style={{ height: '180px', overflow: 'hidden' }}>
                                     <img
-                                        src={project.image}
+                                        src={`${import.meta.env.BASE_URL}${project.image.startsWith('/') ? project.image.slice(1) : project.image}`}
                                         alt={project.title}
                                         style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s' }}
                                     />
