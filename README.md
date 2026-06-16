@@ -1,16 +1,43 @@
-# React + Vite
+# Ruth Ewonubari Deemua | Developer & Mechatronics Engineer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This repository contains the source code for my personal website, where I showcase my journey, projects, and skills in the intersection of engineering and software development.
 
-Currently, two official plugins are available:
+🚀 **[View Live Portfolio](https://ruthiezgit.github.io/my-website/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👤 About Me
+I am an aspiring Mechatronics Engineer and Developer with a unique global perspective. An aspiring trilingual in **English, German, and Russian**, I am passionate about creating innovative solutions, with a particular interest in robotics and prosthetics.
 
-## React Compiler
+I have continuously honed my skills through vocational training in Robotics and practical software development. I am a resilient learner, always seeking ways to bridge the gap between software and hardware to make a real-world impact.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack & Skills
+- **Web Development**: React, Vite, Framer Motion, Vanilla CSS, JavaScript, HTML5.
+- **Languages**: Python, C++, English (Native/C2), German, Russian.
+- **Engineering/Robotics**: Microcontrollers (Arduino, ESP), G-code, CNC configuration, IoT systems.
+- **Other Tools**: Git/GitHub, Vercel, WIX.
 
-## Expanding the ESLint configuration
+## 🌟 Featured Projects
+### [Engreene Events](https://engreeneevents.com/)
+A full-featured event management platform for planning weddings and corporate events.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### [Bionic Robot Arm](/#projects)
+An ongoing robotics project involving the design and programming of a bionic arm that interprets computer commands for precise movement.
+
+## 📈 Education & Highlights
+- **Valencia College**: Associate of Arts in Engineering (Orlando, FL).
+- **Robotics & AI Nigeria (RAIN)**: Specialized training in Robotics Development and Automation.
+- **Certified Frontend Developer**: Mayerfeld Practicum Program.
+- **Honors**: Phi Theta Kappa, Dean's List, President's List.
+
+## ⚙️ Development
+This project is built with **React** and **Vite**.
+
+### Local Setup
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Start development server: `npm run dev`.
+
+### Deployment
+Automatically deployed to GitHub Pages via **GitHub Actions** on push to the `test` branch.
+
+---
+Feel free to reach out via the [contact form](https://ruthiezgit.github.io/my-website/#contact) on my website or at [deemuabae007@gmail.com](mailto:deemuabae007@gmail.com) / +2348104289851!
