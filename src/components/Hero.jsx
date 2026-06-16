@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
     return (
@@ -9,8 +10,47 @@ const Hero = () => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            paddingTop: '100px' // accounts for fixed header
+            paddingTop: '100px', // accounts for fixed header
+            position: 'relative', // for absolute children
+            overflow: 'hidden'
         }}>
+            {/* Elegant Vertical Projects CTA on the right */}
+            <motion.a
+                href="#projects"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 1.5, duration: 0.8 }}
+                style={{
+                    position: 'absolute',
+                    right: '30px',
+                    top: '120px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: '10px',
+                    color: 'var(--accent-gold)',
+                    textDecoration: 'none',
+                    zIndex: 10,
+                    cursor: 'pointer'
+                }}
+            >
+                <motion.div
+                    animate={{ y: [0, 8, 0] }}
+                    transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+                >
+                    <ArrowDown size={24} />
+                </motion.div>
+                <span style={{
+                    writingMode: 'vertical-rl',
+                    fontSize: '0.75rem',
+                    fontWeight: 'bold',
+                    letterSpacing: '3px',
+                    opacity: 0.8
+                }}>
+                    RECENT WORKS
+                </span>
+            </motion.a>
+
             <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}

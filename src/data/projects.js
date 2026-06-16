@@ -1,5 +1,15 @@
 export const projectsData = [
     {
+        id: 0,
+        title: "Chef Maxi",
+        description: "An intelligent AI culinary agent that provides recipes and cooking tips.",
+        longDescription: "Chef Maxi is an AI-powered assistant designed to help users discover new recipes, understand cooking techniques, and manage their kitchen tasks efficiently. Built with modern web technologies and LLM integration.",
+        link: "https://chef-maxi.vercel.app/",
+        image: "/images/Chef-Maxi.png",
+        tags: ["AI Agent", "React", "LLM", "Vercel"],
+        featured: true
+    },
+    {
         id: 1,
         title: "Engreene Events",
         description: "A professional event management website offering comprehensive planning services.",
